@@ -12,3 +12,7 @@ pulse
 update-notifier
 user-dirs.dirs
 user-dirs.locale
+home
+coc
+dejavu-fonts-ttf-2.37
+nvim/plugged/*
