@@ -3,6 +3,7 @@ call plug#begin('$HOME/.config/nvim/plugged')
 
 " bundles for vim-plug
 Plug 'preservim/nerdtree'
+Plug 'tomasiser/vim-code-dark'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', {'do': { -> fzf#install() }}
@@ -16,6 +17,10 @@ set shiftwidth=4
 set expandtab
 set autoindent
 set copyindent
+set number
+
+" Colorscheme
+colorscheme codedark
 
 " Shortcuts for NerdTree
 nnoremap <leader>n :NERDTreeFocus<CR>
